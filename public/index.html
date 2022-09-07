@@ -1,0 +1,22 @@
+<head>
+  <title>Socket.IO chat</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="block_nick">
+    Indique su nick
+    <form id="form_nick" action="">
+      <input id="input_nick" autocomplete="off" /><button>Send</button>
+    </form>
+  </div>
+  <div id="block_chat" class="hidden">
+    <ul id="messages"></ul>
+    <form id="form" action="">
+      <input id="input" autocomplete="off" /><button>Send</button>
+    </form>
+  </div>
+  
+</body>
+<script src="./chat.js" charset="utf-8"></script>
+</html>
